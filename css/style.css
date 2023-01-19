@@ -1,0 +1,94 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; /* Sets the font size to 16px */
+    font-weight: 300; /* Sets the font weight to 300 */
+    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+    color: #4a4a4a;
+  }
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+  }
+  h1 {
+    font-size: 3.00em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.50em;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 2.00em;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 1.50em;
+    font-weight: 400;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none; /* No underlining */
+  }
+  
+  a:visited { /* visited link */
+    color: #F8A060;
+  }
+
+  a:hover {
+    color: #ffffff;
+    text-decoration: underline; /* Underlining when hovering over a link */
+  }
+
+  a:active { /* selected link */
+    color: #000000
+    ;
+  }
+
+
+  a:hover,
+a:focus {
+  color: #ff7f50;
+  text-decoration: underline;
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #ff7f50;
+  color: #994c30; /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8; /* Reduces the opacity of the button to 80% */
+  text-decoration: underline;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
+
+.button.contact:hover {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+
+#my-link {/* id selector */
+  color: green;  
+}
