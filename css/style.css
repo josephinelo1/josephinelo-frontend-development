@@ -6,8 +6,6 @@ body {
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #4a4a4a;
   }
-
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   
   h1, h2, h3, h4 {
     line-height: 1.4;
@@ -36,7 +34,7 @@ body {
   }
 
   a {
-    color: #ffffff;
+    color: #F8A060;
     text-decoration: none; /* No underlining */
   }
   
@@ -91,4 +89,10 @@ a:focus {
 
 #my-link {/* id selector */
   color: green;  
+}
+
+header {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
 }
