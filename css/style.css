@@ -103,9 +103,22 @@ header {
 /* Layout styling */
 
 header {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
+}
+
+header {
   background-color: #ffe4c4;
   text-align: center;
-  padding: 10px 0;
+  padding: 10px 5px;
+}
+
+selector {
+  position: relative;
 }
 
 selector {
@@ -129,7 +142,7 @@ selector {
 }
 
 .logo {
-  max-width: 250px;
+  max-width: 80px;
 }
 
 nav > ul {
