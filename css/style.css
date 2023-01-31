@@ -93,6 +93,65 @@ a:focus {
 
 header {
   background-color: #ffffff;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+  padding-left: 5px;
   margin: 10px;
+}
+
+/* Layout styling */
+
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+}
+
+selector {
+  margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#hero h1 {
+  margin: 0;
+  padding: 0.67em 0; /* Centers text */
+}
+#hero h3 {
+  text-align: center; /* Centers text */
+}
+
+.logo {
+  max-width: 250px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a:visited {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+selector {
+  width: 100%;
+}
+
+#hero {
+  background-color: #ffe4c4;
 }
