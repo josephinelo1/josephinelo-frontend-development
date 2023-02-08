@@ -199,7 +199,7 @@ nav {
   width: 50%;
 } 
 
-[class*="col-6"] {
+[class*="col-"] {
   float: left;
 }
 
@@ -224,4 +224,10 @@ X-large devices (1440px or larger)
 Extra-large devices (1920px or larger)
 ================================= */
 @media only screen and (min-width: 1920px) {
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
