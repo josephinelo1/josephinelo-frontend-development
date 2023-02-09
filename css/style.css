@@ -248,6 +248,10 @@ Extra-large devices (1920px or larger)
   margin-right: auto;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .button {
   display: inline-block;
   background-color: #ff7f50;
