@@ -176,7 +176,7 @@ nav > ul > li > a:visited {
 }
 
 .navtoggle li:not(:last-child) {
-  display: inline-block;
+  display: none;
 }
 
 .navtoggle.responsive li  {
