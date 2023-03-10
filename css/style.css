@@ -34,12 +34,12 @@ body {
   }
 
   a {
-    color: #F8A060;
+    color: #AB4C08;
     text-decoration: none; /* No underlining */
   }
   
   a:visited { /* visited link */
-    color: #F8A060;
+    color: #AB4C08;
   }
 
   a:hover {
